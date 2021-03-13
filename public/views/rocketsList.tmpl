@@ -17,12 +17,12 @@
 <body>
     <nav>
         <h1>Rocket Shop</h1>
-        <a href='/'>Home</a>
+        <a href='/rockets'>Home</a>
         <a href='/cart'>Cart</a>
     </nav>
     <main>
        {{range .}}
-            <h1>{{.Name}}</h1>
+            <a href='/rockets/{{.Id}}'><h1>{{.Name}}</h1></a>
             <p>{{.Price}}</p>
             <p>{{.Company}} | {{.Description}}</p>
             <hr>

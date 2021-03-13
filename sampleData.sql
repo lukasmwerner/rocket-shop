@@ -1,0 +1,2 @@
+INSERT INTO stock (name, price, description, company) VALUES ('Falcon 9', '$36 Million/Seat', 'Testing testing 123', 'SpaceX');
+INSERT INTO stock (name, price, description, company) VALUES ('Delta IV', '$56 Million/Seat', '~Retired~', 'ULA');
